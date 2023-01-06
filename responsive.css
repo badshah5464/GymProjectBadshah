@@ -1,0 +1,604 @@
+@media screen and (max-width:1460px) {
+    footer>div:nth-child(2) {
+        flex-wrap: wrap;
+    }
+
+    footer>div:nth-child(2)>div>h4 {
+        margin: 20px 0;
+    }
+
+    footer>div:last-child {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:1175px) {
+    header {
+        height: 90vh;
+    }
+
+    header>.navigation>nav>ul>li {
+        margin: auto 0px;
+    }
+
+    header>section.navigation {
+        padding: 0;
+        width: 100vw;
+    }
+
+    header>section.navigation>nav>ul>li>a {
+        font-size: 16px;
+    }
+
+    header>section.navigation>div>div h2 {
+        font-size: 20px;
+    }
+
+    header>section.navigation>nav>ul>li>button {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 20px 50px;
+    }
+
+    footer>div:last-child {
+        flex-wrap: wrap;
+    }
+
+    footer>div:last-child div:nth-child(3)>div img {
+        width: 130px;
+    }
+
+    .our-packages div:nth-child(1) {
+        padding: 0 50px;
+        margin: 30px 0 0 0;
+    }
+
+    .our-packages>div:nth-child(1)>div:nth-child(2) {
+        margin: 10px 0;
+    }
+
+    .our-packages>div:nth-child(2) {
+        padding: 10px 70px;
+        margin: 0;
+    }
+
+    .our-packages>div:nth-child(2)>div {
+        padding: 35px 0;
+    }
+
+    .facility {
+        --section-padding: 40px 80px;
+    }
+
+    .facility>div:nth-child(1) {
+        margin: 0 0 10px 0;
+    }
+
+    .facility>div:nth-child(1)>div:nth-child(2) {
+        width: 60%;
+    }
+
+    .activity {
+        --section-padding: 40px 80px;
+    }
+
+    .activity>div:nth-child(1) {
+        margin: 0 0 10px 0;
+    }
+
+    .activity>div:nth-child(1)>div:nth-child(2) {
+        width: 60%;
+    }
+
+    .club {
+        --section-padding: 40px 80px;
+    }
+
+    .coaches>div>div:nth-child(2) {
+        padding: 40px;
+    }
+
+    .coaches>div>div:nth-child(2)>div {
+        margin: 60px;
+    }
+
+}
+
+@media screen and (max-width:1130px) {
+    header>section.navigation>nav>ul.navbar>li {
+        padding: 0 8px;
+        margin: auto 6px;
+    }
+
+    header>section.navigation>nav>ul.navbar>a {
+        font-size: 15px;
+    }
+
+    header>section.navigation>nav>ul.navbar>a>i {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    header>section.navigation>div>div {
+        padding: 0 1px;
+    }
+
+    header>section.navigation>div>div>h2 {
+        font-size: 16px;
+    }
+
+    header>section.navigation>div>img {
+        width: 60px;
+    }
+
+    header>section.navigation>div>div>p {
+        font-size: 12px;
+    }
+
+    section.formality>h1 {
+        font-size: 30px;
+    }
+
+    section.formality>p {
+        font-size: 18px;
+    }
+
+    .loclbtn {
+        padding: 8px 20px;
+    }
+
+    .packages>div>div>i {
+        font-size: 40px;
+    }
+
+    .packages>div>div>h3 {
+        padding: 10px 0;
+    }
+
+    .packages>div>div>p {
+        padding: 10px 0;
+    }
+
+    header {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:960px) {
+    header>section.navigation>nav>ul.navbar>li>a {
+        font-size: 14px;
+    }
+
+    .coaches>div>div:nth-child(2)>div {
+        margin: 40px;
+    }
+
+    header {
+        height: 70vh;
+    }
+
+    section.formality>h1 {
+        font-size: 25px;
+    }
+
+    section.formality>p {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    .workout>div>div:nth-child(1) {
+        padding: 60px;
+    }
+
+    .workout>div>div:nth-child(2) {
+        padding: 10px 20px;
+    }
+
+    .facility {
+        --section-padding: 20px 40px;
+    }
+
+    .activity {
+        --section-padding: 20px 40px;
+    }
+
+    .club {
+        --section-padding: 20px 40px;
+    }
+
+    .expert-coaches {
+        height: 50vh;
+    }
+
+    footer {
+        padding: 10px 25px;
+    }
+
+    .club>div:nth-child(2) {
+        margin: 20px;
+    }
+
+    .our-packages div:nth-child(1) {
+        margin: 10px 0 0 0;
+    }
+
+    footer>div:nth-child(2) {
+        margin: 0;
+    }
+
+    .coaches>div>div:nth-child(2) {
+        padding: 10px;
+    }
+
+    .our-packages>div:nth-child(2) {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+
+    header {
+        height: 60vh;
+    }
+
+    header>section.navigation>div>img {
+        width: 50px;
+    }
+
+    header>section.navigation>div>div>h2 {
+        font-size: 18px;
+    }
+
+    header>section.navigation>nav {
+        position: relative;
+    }
+
+    header>section.navigation>nav>ul.navbar {
+        flex-direction: column;
+        position: absolute;
+        right: -1000px;
+        top: 24px;
+        transition: .3s;
+        text-align: center;
+        background: linear-gradient(var(--lightblueNav), white);
+    }
+
+    .responce {
+        right: 0 !important;
+    }
+
+    header>section.navigation>nav>i {
+        color: white;
+        font-size: 22px;
+        position: absolute;
+        top: -13px;
+        display: block;
+        right: 18px;
+    }
+
+    header>section.navigation>nav>ul.navbar>li {
+        padding: 20px 50px;
+    }
+
+    header>section.navigation>nav>ul.navbar>li>a {
+        color: black;
+    }
+
+    section.formality {
+        width: 75%;
+    }
+
+    section.formality>h1 {
+        font-size: 30px;
+    }
+
+    section.formality>p {
+        font-size: 20px;
+    }
+
+    section.formality>button {
+        padding: 5px 10px;
+        margin: 10px 0;
+    }
+
+    .small-display {
+        display: block;
+    }
+
+    footer {
+        padding: 20px 25px;
+    }
+
+    footer>div:nth-child(1) {
+        flex-wrap: wrap;
+    }
+
+    .offers>article>h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:765px) {
+    footer>div:last-child {
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.formality>h1 {
+        font-size: 25px;
+    }
+
+    section.formality>p {
+        font-size: 16px;
+    }
+
+    .loclbtn {
+        font-size: 14px;
+    }
+
+    .packages>div>div {
+        padding: 10px;
+    }
+
+    .packages>div>div>i {
+        font-size: 30px;
+    }
+
+    .packages>div>div>h3 {
+        font-size: 16px;
+    }
+
+    .packages>div>div>p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footer-nav>div {
+        padding: 15px 10px;
+    }
+
+    .packages>div {
+        flex-direction: column;
+    }
+
+    .workout>div {
+        flex-direction: column;
+    }
+
+    .workout>div>div:nth-child(1) {
+        width: 100%;
+    }
+
+    .workout>div>div:nth-child(2) {
+        width: 100%;
+    }
+
+    .facility>div:first-child {
+        flex-direction: column;
+    }
+
+    .facility>div:first-child>div:first-child {
+        width: 100%;
+    }
+
+    .facility>div:first-child>div:last-child {
+        width: 100%;
+    }
+
+    .facility-type {
+        flex-wrap: wrap;
+    }
+
+    .activity>div:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .activity>div:first-child>div:first-child {
+        width: 100%;
+    }
+
+    .activity>div:nth-child(1)>div:nth-child(2) {
+        width: 100%;
+    }
+
+    .activity>div:nth-child(2)>div {
+        flex-direction: column;
+    }
+
+    .activity>div:nth-child(2)>div>div {
+        width: 100%;
+    }
+
+    .coaches>div {
+        flex-direction: column;
+    }
+
+    .coaches>div>div:nth-child(1) {
+        height: 60vh;
+        display: none;
+    }
+
+    .coaches>div>div:nth-child(1)>div {
+        display: none;
+    }
+
+    .coaches>div>div:nth-child(2) {
+        width: 100%;
+        padding: 20px 40px;
+    }
+
+    .coaches>div>div:nth-child(2)>div {
+        margin: 10px;
+    }
+
+    .expert-coaches {
+        flex-direction: column;
+    }
+
+    .expert-coaches>div:nth-child(1) {
+        margin: 10px;
+    }
+
+    .expert-coaches>div:nth-child(1)>h2 {
+        font-size: 20px;
+    }
+
+    .expert-coaches>div:nth-child(2) {
+        margin: 10px;
+    }
+
+    .expert-coaches>div:nth-child(2)>img {
+        width: 70px;
+        height: 70px;
+        padding: 0;
+    }
+
+    .our-packages>div:nth-child(2)>div>p {
+        margin: 0;
+    }
+
+    .our-packages>div:nth-child(2)>div>button {
+        margin: 5px;
+    }
+
+    .our-packages>div:nth-child(2)>div:nth-child(2)>button {
+        margin: 20px;
+    }
+
+    .our-packages>div:nth-child(2) {
+        margin: 10px;
+    }
+
+    .our-packages>div:nth-child(1) {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .our-packages>div:nth-child(1)>div:nth-child(1) {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .our-packages>div:nth-child(1)>div:nth-child(2) {
+        width: 100%;
+    }
+
+    .offers {
+        height: 40vh;
+        background-position: 0, -150px;
+    }
+
+    .club>div:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .club>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+    }
+
+    .club>div:nth-child(1)>div:nth-child(2) {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .club>div:nth-child(1)>div:nth-child(3) {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .club>div:nth-child(2) {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .club>div:nth-child(2)>div {
+        width: 100%;
+    }
+
+    .footer-nav>div>div:nth-child(2) {
+        display: none;
+    }
+
+    .workout>div>div:nth-child(1) {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .our-packages>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .our-packages>div:nth-child(2)>div {
+        margin: 10px;
+        width: 80%;
+    }
+
+    .our-packages>div:nth-child(2)>div:nth-child(2) {
+        width: 90%;
+    }
+
+    footer>div:nth-child(2)>div:nth-child(3) {
+        display: none;
+    }
+
+    footer>div:nth-child(1) {
+        flex-direction: column;
+    }
+
+    footer>div:nth-child(1)>div {
+        width: 100%;
+        margin: 10px;
+    }
+
+    footer>div:nth-child(1)>div:nth-child(4) {
+        justify-content: space-between;
+    }
+
+    footer>div:nth-child(1)>div:nth-child(4)>div {
+        padding: 13px 30px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    header {
+        background-position: -138px;
+    }
+
+    section.formality>h1 {
+        margin: 35px 0 0 0;
+    }
+
+    .our-packages>div:nth-child(1)>div:nth-child(1)>h2 {
+        font-size: 25px;
+    }
+
+    .workout>div>div:nth-child(1)>h2 {
+        font-size: 25px;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    header {
+        background-position: -230px;
+    }
+
+    .packages>div>div>i {
+        margin: 10px;
+    }
+
+    footer>div:nth-child(2)>div:nth-child(3)>div {
+        flex-direction: column;
+    }
+
+    footer>div:nth-child(2)>div:nth-child(3)>div>img {
+        width: 100%;
+    }
+}
